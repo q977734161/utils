@@ -5,3 +5,6 @@
 
 ## api 调试工具
 https://www.apipost.cn/
+
+## mysql javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+jdbc-url 中加 &useSSL=false 或者换 jdk 版本
